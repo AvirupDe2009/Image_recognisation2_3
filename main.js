@@ -38,7 +38,7 @@ classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models
 function gotResult(error, results) {
   // Display error in the console
   if (error) {
-    console.error(error);
+    console.log(error);
   } else {
     // The results are in an array ordered by confidence.
     console.log(results);
